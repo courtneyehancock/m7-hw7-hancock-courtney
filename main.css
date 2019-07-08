@@ -26,6 +26,10 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
   max-width: 40%;
 }
 
+.dim {
+  opacity: .7;
+}
+
 .hide {
   display: none;
 }

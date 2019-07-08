@@ -5,4 +5,22 @@ const showMessage = () => {
   hiddenMessage.classList.remove('hide');
 }
 
-image.addEventListener('mouseover', showMessage);
+const hideMessage = () => {
+  hiddenMessage.classList.add('hide');
+}
+
+const colorChange = () => {
+  image.classList.add('dim');
+}
+
+const colorChangeAgain = () => {
+  image.classList.remove('dim');
+}
+
+//Show message
+image.addEventListener('mouseenter', showMessage);
+image.addEventListener('mouseleave', hideMessage);
+
+//opacity hover effect for image
+image.addEventListener('mouseenter', colorChange);
+image.addEventListener('mouseleave', colorChangeAgain);
