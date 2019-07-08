@@ -7,3 +7,31 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+.jumbotron {
+  background-image: url('icecream.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20% 0;
+  opacity: .7;
+}
+
+.display-4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-width: 40%;
+}
+
+.about {
+  background-color: #EE006C;
+  opacity: .7;
+  color: #fff;
+}
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
